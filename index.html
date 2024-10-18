@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="objects.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="button-container">
+            <button class="new-book">Add new book</button>
+        </div>
+        <dialog >
+            <form method="dialog">
+                <input type="text" class="title" placeholder="Enter book name">
+                <input type="text" class="author" placeholder="Enter the author">
+                <input type="number" class="pages" placeholder="Enter no of pages">
+                <select name="read-status" class="read" id="">
+                    <option value="false">no</option>
+                    <option value="true">yes</option>
+                </select>
+                <button class="close">clear</button>
+                <button class="submit">submit</button>
+            </form>
+
+        </dialog>
+        <div class="book-container"></div>
+    </div>
+</body>
+
+</html>
